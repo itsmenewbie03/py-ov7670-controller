@@ -29,3 +29,7 @@ def read_ultrasonic_sensor():
         # WARN: this blindly accepts the reading, 
         # WARN: additional calibration must be added to normalize the readings
         data_list.append(distance)
+
+    ser.close()
+    open(f"ultrasonic_sensor_data_{time.time()}.txt", "w").write(str(data_list))
+    print(":: Data saved to file")
