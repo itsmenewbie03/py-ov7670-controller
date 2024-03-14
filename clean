@@ -1,1 +1,1 @@
-rm -rf *.bin ; rm -rf *.png ; rm -rf *.txt
+rm -rf *.bin ; rm -rf *.png ; rm -rf ultrasonic_sensor_data*.txt
