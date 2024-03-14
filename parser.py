@@ -37,6 +37,6 @@ def parse(path):
     except Exception as e:
       print("Error:",e,path)
   
-limit = 9 
+limit = 2 
 for x in range(limit):
     parse(f"image_{x}.bin")

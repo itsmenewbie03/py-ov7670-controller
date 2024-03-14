@@ -18,7 +18,7 @@ def take_photos():
         print(":: Connected to serial port:", serial_port)
 
         counter = 0
-        limit = 9
+        limit = 2
         
         image_data = bytearray()
         
